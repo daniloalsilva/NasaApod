@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    string url = ((dynamic)TempData["NasaData"])["url"];
+    var date = (DateTime)(((dynamic)TempData["NasaData"])["date"]);
+}
+
+<div class="text-center">
+    <h1 class="display-4">This was Nasa Picture of the day, of date @date.ToShortDateString()</h1>
+    @foreach (dynamic item in (dynamic)TempData["NasaData"])
+    {
+        <p><b>@item.Name</b> : @item.Value</p>   
+    }
+    <img src="@url" />
+</div>

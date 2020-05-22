@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0Ts2S+u1SM5stNCrQMh2DBSn63wfCJxNZVLgGGcpdmB1SSC84APkeDwc2h/pMYyxWJNLie9lYkjhl41+Ctk0rQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danil\\Projects\\dotnetcore\\RazorProject\\RazorProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danil\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
